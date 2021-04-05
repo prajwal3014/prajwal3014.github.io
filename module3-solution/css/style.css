@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+h1 {
+	padding-bottom: 15px;
+	padding-top: 0;
+}
+.navbar{
+border: none;
+background-color: black;
+color: white;
+}
+body{
+	background-color:grey;
+	color: white;
+}
+.glyphicon{
+	font-size: 30px;
+	color: grey; 
+}
+
+.center{
+	width: 90%;
+	background-color: coral;
+
+}
+.container
+{
+	background-color: coral;
+}
+.text-center{
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+}
+#myNavbar ul li a {
+	color: grey;
+	font-size: 20px;
+	vertical-align: middle;
+}
+.navbar-brand{
+font-size: 30px;	
+}
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: pink;
+}
