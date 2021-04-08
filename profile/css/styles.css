@@ -253,7 +253,7 @@ h3.menu-item-title {
 
 @media(min-width: 1200px) {
 	.container .jumbotron {
-		background: url('../logo2_1200.jpg') no-repeat;
+		background: url('../me_1200.jpg') no-repeat;
 		height: 675px;
 		box-shadow: 0 0 50px #3F01CF;
 		border: 2px solid #3F01CF;
@@ -269,7 +269,7 @@ h3.menu-item-title {
 		margin: 5px 5px 5px 0;
 	}
 	.container .jumbotron {
-		background: url('../logo2_992.jpg') no-repeat;
+		background: url('../me_992.jpg') no-repeat;
 		height: 558px;
 		box-shadow: 0 0 50px #3F01CF;
 		border: 2px solid #3F01CF;
@@ -278,7 +278,7 @@ h3.menu-item-title {
 
 @media(min-width: 768px) and (max-width: 992px) {
 	.container .jumbotron {
-		background: url('../logo2_768.jpg') no-repeat;
+		background: url('../me_768.jpg') no-repeat;
 		height: 432px;
 		box-shadow: 0 0 50px #3F01CF;
 		border: 2px solid #3F01CF;
