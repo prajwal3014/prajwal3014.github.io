@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basics of C language</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <!-- START OF HEADER -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo Image"></div>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>UNIQUEDU</h1></a>
+            <p>
+              <span class="hidden-xs">The uniqueness in knowledge we provide is more than you expect.</span>
+              <span class="visible-xs">The uniqueness in knowledge we <br>provide is more than you expect.</span>
+            </p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs">
+              <a href="../HOME.html">
+                <span class="glyphicon glyphicon-home"></span>Home
+              </a>
+            </li>
+            <li>
+              <a href="../BLOGS.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Blogs
+              </a>
+            </li>
+            <li>
+              <a href="../about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us
+              </a>
+            </li>
+            <li>
+              <a href="../Join.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Join Us
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+918595641819">
+                <span>+918595641819</span>
+              </a>
+              <div>* Contact</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+918595641819">
+      <span class="glyphicon glyphicon-earphone"></span>
+      +918595641819
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Contact</div>
+  <!-- END OF HEADER -->
+
+  <div id="main-content" class="container">
+    <h2 id="education" class="text-center">Basic Syntax</h2>
+    <section class="C">
+      <h4 id="education">Greetings of the day everyone, this is <b>Prajwal Sharma</b>. I hope you all liked my previous blog. So, in this blog, we will talk about “Basic Syntax of C language” and write our first program.</h4>
+      <img class="img visible-xs" src="8.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="8.jpg" alt="launch" width="700" height="300">
+      </div>
+      <h4 id="education">Coming to the first program in C language, First learn the basic syntax :<br>
+        • Header files : In every program we have to include header files because it becomes easy for the compiler to understand the program.<br>
+        • Main Function : By reading the name you can understand that it is the main part of program, Every executable thing is done inside main function.<br>
+        • Open Curly Braces & Close Curly Braces : It will tell compiler that all the statements inside them is together part of main function. It is called function body.<br>
+        • In the function body, we have to write our code for desired output.<br>
+        • At last, the return statement is important because after execution it will tell us that our code is successful or not.<br>
+        Now after you understand the basic things, just open your Dev C++, Press Ctrl+N for new tab and Write the following code :<br>
+        #include&lt;stdio.h&gt;<br>                   
+        int main()<br>                      
+        {<br>                       
+          printf("Hello Guys, Welcome to UniquEdu...!"); <br>
+          return 0;<br>                   
+        }<br>
+        After writing the code, Save it with extension “.c”, By default Dev C++ save the code with extension “.cpp” which is for C++ but we have to save it for C that’s why take care of it.<br>
+        When it is saved then we have to first compile it, for compiling click on button shown in image. Its shortcut is F9.</h4>
+      <img class="img visible-xs" src="9.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="9.jpg" alt="launch" width="700" height="300">
+      </div>
+      <h4 id="education">
+        After compiling the program, if your program is all correct with no error you can see at the bottom of your screen a box.
+      </h4>
+      <img class="img visible-xs" src="10.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="10.jpg" alt="launch" width="700" height="300">
+      </div>
+      <h4 id="education">
+        If there is an error in code you will see like this :</h4>
+        <img class="img visible-xs" src="11.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="11.jpg" alt="launch" width="700" height="300">
+      </div>
+        <h4 id="education">The red line will tell you where error must be, There you can see that before return statement a semicolon is missing so it created an error.<br>
+        By looking this error, I want everyone to note a point that a semicolon or terminator is very important in C language and in every statement when you want to show that this statement is terminated here then you have to put a semicolon.<br>
+        Now your code is compiled, this is the time to run it. Now press the run button shown in image :</h4>
+        <img class="img visible-xs" src="12.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="12.jpg" alt="launch" width="700" height="300">
+      </div>
+        <h4 id="education">Shortcut for it is F10.<br>
+        When you pressed it, you can see an exe window and you can see the message written there.</h4>
+        <img class="img visible-xs" src="13.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="13.jpg" alt="launch" width="700" height="300">
+      </div>
+        <h4 id="education">Look closely you can see a statement here “return value 0”, What is it? In basic syntax I told you that it will tell us about our code is successful or not, so look here “return value 0” means code is successful but if there is value other than 0 then the code is not successfully executed.<br>
+        At last, I want to tell you that if you want to compile and run at a same time then use this button. Shortcut is F11.</h4>
+        <img class="img visible-xs" src="14.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="14.jpg" alt="launch" width="700" height="300">
+      </div>
+        <h4 id="education">So, That’s all for this blog. I hope you all will execute the program. Thank you to be so patient.<br>
+        Be alert guys I will post more on Basics of C language. Feel free to provide feedback guys so that I will improve my content.</h4>
+        <h4 id="education" style="text-align: right"><b>• PRAJWAL SHARMA</b><br>
+        <b>FOUNDER OF UNIQUEDU</b></h4>
+        
+    </section>
+    <div class="next">
+      <a href="../Content.html">
+        <button class="button" type="button"><b>Next ></b></button>
+      </a>
+    </div>
+    <div class="previous">
+      <a href="C_3.html">
+        <button class="button2" type="button"><b>< Previous</b></button>
+      </a>
+    </div>
+    <div style="padding-top: 70px;color: DarkSlateGrey;">
+      <!-- begin wwww.htmlcommentbox.com -->
+      <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+      <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24Sz0SmeaMQmmgsm6PwOpm2%2F"+"&opts=16862&num=10&ts=1621539441105");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+      <!-- end www.htmlcommentbox.com -->
+    </div>
+  </div>
+  <!--START OF FOOTER-->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours : </span><br>
+          Monday - Saturday : 10:00am - 8:00pm<br>
+          Sunday : 12:00pm - 6:00pm<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address : </span><br>
+          Faridabad, Haryana<br>
+          Developed by<br> "PRAJWAL SHARMA" & "AYUSH RANA"<br>
+          <p>* Please call before coming...!</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>Email-Id : uniquedu.3017@gmail.com</p>
+          <p>Contact : +918595641819</p><br>
+          Instagram : <a href="https://www.instagram.com/uniquedu.3017/">@uniquedu.3017</a><br><br>
+          <p>"If you want to write blog than mail us...!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; UniquEdu.co.in</div>
+    </div>
+  </footer>
+  <!--END OF FOOTER-->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../../js/script.js"></script>
+</body>
+</html>

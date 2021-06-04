@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Machine Learning</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <!-- START OF HEADER -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo Image"></div>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>UNIQUEDU</h1></a>
+            <p>
+              <span class="hidden-xs">The uniqueness in knowledge we provide is more than you expect.</span>
+              <span class="visible-xs">The uniqueness in knowledge we <br>provide is more than you expect.</span>
+            </p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs">
+              <a href="../HOME.html">
+                <span class="glyphicon glyphicon-home"></span>Home
+              </a>
+            </li>
+            <li>
+              <a href="../BLOGS.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Blogs
+              </a>
+            </li>
+            <li>
+              <a href="../about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us
+              </a>
+            </li>
+            <li>
+              <a href="../Join.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Join Us
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+918595641819">
+                <span>+918595641819</span>
+              </a>
+              <div>* Contact</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+918595641819">
+      <span class="glyphicon glyphicon-earphone"></span>
+      +918595641819
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Contact</div>
+  <!-- END OF HEADER -->
+  <div id="main-content" class="container">
+    <h2 id="education" class="text-center">Logistic Regression</h2>
+    <section class="C">
+      <h4 id="education">
+        Greetings! This is <b>Parv Arora</b> and I have done certification in Machine Learning. So, in this series of blogs, I am going to give you a full tutorial on machine learning. Our next topic is Logistic Regression.<br><br>
+
+        <b><u>Logistic Regression</u></b><br><br>
+        Logistic regression is a supervised learning classification algorithm used to predict the probability of a target variable. The nature of target or dependent variable is dichotomous, which means there would be only two possible classes.<br><br>
+        In simple words, the dependent variable is binary in nature having data coded as either 1 (stands for success/yes) or 0 (stands for failure/no).<br><br>
+        Mathematically, a logistic regression model predicts P(Y=1) as a function of X. It is one of the simplest ML algorithms that can be used for various classification problems such as spam detection, Diabetes prediction, cancer detection etc.<br><br>
+
+        <b><u>Logistic Function</u></b><br><br>
+        Logistic regression is named for the function used at the core of the method, the logistic function.<br>
+        The logistic function, also called the sigmoid function was developed by statisticians to describe properties of population growth in ecology, rising quickly and maxing out at the carrying capacity of the environment. It’s an S-shaped curve that can take any real-valued number and map it into a value between 0 and 1, but never exactly at those limits.<br><br>
+        1 / (1 + e^-value)<br><br>
+        Where e is the base of the natural logarithms (Euler’s number or the EXP() function in your spreadsheet) and value is the actual numerical value that you want to transform. Below is a plot of the numbers between -5 and 5 transformed into the range 0 and 1 using the logistic function.<br><br>
+      </h4>
+      <img class="img visible-xs" src="12.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="12.jpg" alt="launch" width="600" height="300">
+      </div>
+      <h4 id="education">
+        <br><b><u>Representation Used for Logistic Regression</u></b><br><br>
+        Logistic regression uses an equation as the representation, very much like linear regression.<br>
+        Input values (x) are combined linearly using weights or coefficient values (referred to as the Greek capital letter Beta) to predict an output value (y). A key difference from linear regression is that the output value being modeled is a binary value (0 or 1) rather than a numeric value.<br><br>
+        Below is an example logistic regression equation: <br><br>
+        y = e^(b0 + b1*x) / (1 + e^(b0 + b1*x))<br><br>
+        Where y is the predicted output, b0 is the bias or intercept term and b1 is the coefficient for the single input value (x). Each column in your input data has an associated b coefficient (a constant real value) that must be learned from your training data.<br><br>
+
+        <b><u>Cost Function</u></b><br><br>
+        We cannot use the same cost function that we use for linear regression because the Logistic Function will cause the output to be wavy, causing many local optima. In other words, it will not be a convex function.<br><br>
+        Instead, our cost function for logistic regression looks like:<br><br>
+      </h4>
+      <img class="img visible-xs" src="13.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="13.jpg" alt="launch" width="600" height="300">
+      </div>
+      <h4 id="education">
+        <br><b><u>Simplified Cost Function and Gradient Descent</u></b><br><br> 
+        We can compress our cost function's two conditional cases into one case:<br><br>
+        Cost(hθ(x),y)=−ylog(hθ(x))−(1−y)log(1−hθ(x))<br><br>
+        Notice that when y is equal to 1, then the second term (1−y)log(1−hθ(x)) will be zero and will not affect the result. If y is equal to 0, then the first term −ylog(hθ(x)) will be zero and will not affect the result.<br><br>
+        We can fully write out our entire cost function as follows:<br><br>
+      </h4>
+      <img class="img visible-xs" src="14.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="14.jpg" alt="launch" width="600" height="300">
+      </div>
+      <h4 id="education">
+        <br>So, this is all about Logistic regression. Thank you to be so patient. I hope you gained a brief knowledge about the topic.<br><br>
+        Be alert guys I will post more on Machine Learning. Feel free to provide feedback guys to help me improve my content.
+      </h4>
+      <h4 id="education" style="text-align: right">
+        <b>• PARV ARORA</b><br>
+      </h4>
+    </section>
+    <div class="next">
+      <a href="../Content.html">
+        <button class="button" type="button"><b>Next ></b></button>
+      </a>
+    </div>
+    <div class="previous">
+      <a href="ML_3.html">
+        <button class="button2" type="button"><b>< Previous</b></button>
+      </a>
+    </div>
+    <div style="padding-top: 70px;color: DarkSlateGrey;">
+      <!-- begin wwww.htmlcommentbox.com -->
+      <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+      <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24Sz0SmeaMQmmgsm6PwOpm2%2F"+"&opts=16862&num=10&ts=1621539441105");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+      <!-- end www.htmlcommentbox.com -->
+    </div>
+  </div>
+
+  <!--START OF FOOTER-->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours : </span><br>
+          Monday - Saturday : 10:00am - 8:00pm<br>
+          Sunday : 12:00pm - 6:00pm<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address : </span><br>
+          Faridabad, Haryana<br>
+          Developed by<br> "PRAJWAL SHARMA" & "AYUSH RANA"<br>
+          <p>* Please call before coming...!</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>Email-Id : uniquedu.3017@gmail.com</p>
+          <p>Contact : +918595641819</p><br>
+          Instagram : <a href="https://www.instagram.com/uniquedu.3017/">@uniquedu.3017</a><br><br>
+          <p>"If you want to write blog than mail us...!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; UniquEdu.co.in</div>
+    </div>
+  </footer>
+  <!--END OF FOOTER-->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../../js/script.js"></script>
+</body>
+</html>

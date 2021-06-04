@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web development</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <!-- START OF HEADER -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo Image"></div>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>UNIQUEDU</h1></a>
+            <p>
+              <span class="hidden-xs">The uniqueness in knowledge we provide is more than you expect.</span>
+              <span class="visible-xs">The uniqueness in knowledge we <br>provide is more than you expect.</span>
+            </p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs">
+              <a href="../HOME.html">
+                <span class="glyphicon glyphicon-home"></span>Home
+              </a>
+            </li>
+            <li>
+              <a href="../BLOGS.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Blogs
+              </a>
+            </li>
+            <li>
+              <a href="../about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us
+              </a>
+            </li>
+            <li>
+              <a href="../Join.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Join Us
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+918595641819">
+                <span>+918595641819</span>
+              </a>
+              <div>* Contact</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+918595641819">
+      <span class="glyphicon glyphicon-earphone"></span>
+      +918595641819
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Contact</div>
+  <!-- END OF HEADER -->
+  <div id="main-content" class="container">
+    <h2 id="education" class="text-center">Img and Anchor tag</h2>
+    <section class="C">
+      <h4 id="education">
+        Greetings of the day everyone, this is <b>Harshit Srivastava</b>. I hope you all liked my previous blog. So, in this blog, I am going to tell you about img and anchor tags in HTML.
+      </h4>
+      <h4 id="education">
+        <b><u>Img tag in HTML</u></b><br><br>
+        In websites or webpages you always interact with images and pictures. As images and pictures increases the readability of your websites. So while making website, if you want to add images you can add them with the help of <img> tag.
+        Below is the syntax of < img > tag<br>
+        < img src="image_name.extension" width="20%" height="200px"  alt="Alternate text " ><br><br>
+        
+        Here, src, width, height and alt are attributes of <img> tag.<br>
+        ⦁	src : It specifies the path of the image.<br>
+        ⦁	width : It determines the width of image in terms of %(percentage) or px(pixels)<br>
+        ⦁	height : It determines the height of image in terms of %(percentage) or px(pixels)<br>
+        ⦁	alt : If for some reason image cannot be displayed, this attribute then specifies an alternate text for image.<br>
+        Note : We can set height and width of the image with the help of CSS also. We’ll discuss about it later in the upcoming blogs.<br><br> 
+        
+        The use of img tag is illustrated in the below example :<br>  
+      </h4>
+      <img class="img visible-xs" src="6_1.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="6_1.png" alt="launch" width="500" height="400">
+      </div>
+      <h4 id="education">
+        Below is the output : 
+      </h4>
+      <img class="img visible-xs" src="6_2.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="6_2.png" alt="launch" width="600" height="300">
+      </div>
+      <h4 id="education">
+        Suppose if image accidently gets deleted or misplaced, then your output will look like :
+      </h4>
+      <img class="img visible-xs" src="6_3.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="6_3.png" alt="launch" width="600" height="200">
+      </div>
+      <h4 id="education">
+        <b><u>Anchor tag in HTML</u></b><br><br>
+        Many times in websites you see there are some links where you click over there and it navigates you to some other webpages, images, any file etc.<br>
+        So, if you want to make such links to a webpage, file etc. you can do it with the help of anchor tags.<br><br>
+        Syntax :<br>
+        < a href = “your link…” > Click here < /a > <br>
+        Here, a tag defines the hyperlink and href attribute specifies the link URL where you want to visit.<br>
+        Between the anchor tags a message is wriiten (in syntax : Click here) to tell that by clicking on it there is a link.<br>
+        Example :
+      </h4>
+      <img class="img visible-xs" src="6_4.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="6_4.png" alt="launch" width="500" height="400">
+      </div>
+      <h4 id="education">
+        Your output looks like :
+      </h4>
+      <img class="img visible-xs" src="6_5.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="6_5.png" alt="launch" width="600" height="200">
+      </div>
+      <h4 id="education">
+        Clicking on the link will redirect you to <a href="https://www.youtube.com">www.youtube.com</a><br>
+        Also you can link html pages or other things, just you have to type the URL of that.<br>
+        Also there are some attributes like target, download etc. using which you change the style of visiting that link.<br>
+        Like, considering the above example where except href no attribute is used, clicking on the link redirects you to <a href="https://www.youtube.com">www.youtube.com</a> on that page only.<br>
+        But if you want to redirect it on another page or tab then you can use the target attribute.<br><br>
+        For example, in the above code replace the anchor tag line with the following :
+      </h4>
+      <img class="img visible-xs" src="6_6.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="6_6.png" alt="launch" width="600" height="300">
+      </div>
+      <h4 id="education">
+        So, this was about img and anchor tags in HTML program. In our next blog we will do lists and tables in HTML.<br>
+        So, this much for this blog. Any feedback for suggestion will be appreciated in the comments. Thank you all…!
+      </h4>
+          <h4 id="education" style="text-align: right">
+            <b>⦁ HARSHIT SRIVASTAVA</b><br>
+          </h4>
+    </section>
+    <div class="next">
+      <a href="WD_3.5.html">
+        <button class="button" type="button"><b>Next ></b></button>
+      </a>
+    </div>
+    <div class="previous">
+      <a href="WD_3.3.html">
+        <button class="button2" type="button"><b>< Previous</b></button>
+      </a>
+    </div>
+    <div style="padding-top: 70px;color: DarkSlateGrey;">
+      <!-- begin wwww.htmlcommentbox.com -->
+      <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+      <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24Sz0SmeaMQmmgsm6PwOpm2%2F"+"&opts=16862&num=10&ts=1621539441105");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+      <!-- end www.htmlcommentbox.com -->
+    </div>
+  </div>
+
+  <!--START OF FOOTER-->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours : </span><br>
+          Monday - Saturday : 10:00am - 8:00pm<br>
+          Sunday : 12:00pm - 6:00pm<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address : </span><br>
+          Faridabad, Haryana<br>
+          Developed by<br> "PRAJWAL SHARMA" & "AYUSH RANA"<br>
+          <p>* Please call before coming...!</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>Email-Id : uniquedu.3017@gmail.com</p>
+          <p>Contact : +918595641819</p><br>
+          Instagram : <a href="https://www.instagram.com/uniquedu.3017/">@uniquedu.3017</a><br><br>
+          <p>"If you want to write blog than mail us...!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; UniquEdu.co.in</div>
+    </div>
+  </footer>
+  <!--END OF FOOTER-->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../../js/script.js"></script>
+</body>
+</html>

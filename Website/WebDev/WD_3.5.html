@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web development</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <!-- START OF HEADER -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo Image"></div>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>UNIQUEDU</h1></a>
+            <p>
+              <span class="hidden-xs">The uniqueness in knowledge we provide is more than you expect.</span>
+              <span class="visible-xs">The uniqueness in knowledge we <br>provide is more than you expect.</span>
+            </p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs">
+              <a href="../HOME.html">
+                <span class="glyphicon glyphicon-home"></span>Home
+              </a>
+            </li>
+            <li>
+              <a href="../BLOGS.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Blogs
+              </a>
+            </li>
+            <li>
+              <a href="../about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us
+              </a>
+            </li>
+            <li>
+              <a href="../Join.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Join Us
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+918595641819">
+                <span>+918595641819</span>
+              </a>
+              <div>* Contact</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+918595641819">
+      <span class="glyphicon glyphicon-earphone"></span>
+      +918595641819
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Contact</div>
+  <!-- END OF HEADER -->
+  <div id="main-content" class="container">
+    <h2 id="education" class="text-center">Lists and Tables</h2>
+    <section class="C">
+      <h4 id="education">
+        Greetings of the day everyone, this is <b>Harshit Srivastava</b>. I hope you all liked my previous blog. So, in this blog, I am going to tell you about lists and tables in HTML.
+      </h4>
+      <img class="img visible-xs" src="7_1.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_1.png" alt="launch" width="500" height="400">
+      </div>
+      <h4 id="education">
+        <b><u>Lists in HTML</u></b><br><br>
+        Lists are basically a number of connected items or collections written consecutively one below the other.<br>
+        In HTML, we can create two types of lists: ordered List and unordered list<br>
+        <u>Ordered lists</u> :<br>
+        They are the lists which contains numbers or alphabets :<br><br>
+        Example 1 :<br>
+         ⦁	List 1<br>
+         ⦁	List 2<br>
+         ⦁	List 3<br>
+        Example 2 :<br>
+         ⦁	List 1<br>
+         ⦁	List 2<br>
+         ⦁	List 3<br><br>
+        Syntax :<br>
+         < ol ><br>
+         < li > List 1 < /li ><br>
+         < li > List 2 < /li ><br>
+         < li > List 3 < /li ><br>
+         < /ol ><br><br>
+        By default, list items will be marked by numbers<br> 
+        Example :<br>
+      </h4>
+      <img class="img visible-xs" src="7_2.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_2.png" alt="launch" width="500" height="400">
+      </div>
+      <h4 id="education">
+        Your output looks like :
+      </h4>
+      <img class="img visible-xs" src="7_3.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_3.png" alt="launch" width="600" height="200">
+      </div>
+      <h4 id="education">
+        Also I can understand if there are a huge number of lists suppose if you have to insert 50 lists in your webpage then you have to write “< li >….< /li >” 50 times, then it can be frustrating.<br>
+        So I a have trick for you that’s why I made you all install VS Code. So, the trick is Suppose if you want to insert 10 li tags. Just type ol>li*10<br>
+        A navigation comes as you can see below
+      </h4>
+      <img class="img visible-xs" src="7_4.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_4.png" alt="launch" width="500" height="400">
+      </div>
+      <h4 id="education">
+        Now if you want to change the type of lists like instead of numbers you want alphabets, then you can use type attribute<br>
+        Example :<br>
+         < ol type = “A” >…….< /ol ><br>
+        Similarly you can use different values like A(uppercase alphabets), a( lowercase alphabets), I(uppercase roman numbers), i(lowercase roman numbers)<br><br>
+        <u>Unordered lists</u> :<br>
+        They are the lists which contains bulleted list (disc, square etc.):<br><br>
+        Example 1 :<br>
+         ⦁	List 1<br>
+         ⦁	List 2<br>
+         ⦁	List 3<br>
+        Example 2 :<br>
+         ⦁	List 1<br>
+         ⦁	List 2<br>
+         ⦁	List 3<br><br>
+        Syntax :<br>
+         < ul ><br>
+         < li > List 1 < /li ><br>
+         < li > List 2 < /li ><br>
+         < li > List 3 < /li ><br>
+         < /ul ><br><br>
+        By default, list items will be marked with bullets.<br>
+        Example :
+      </h4>
+      <img class="img visible-xs" src="7_5.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_5.png" alt="launch" width="500" height="400">
+      </div>
+      <h4 id="education">
+        Your Output looks like :
+      </h4>
+      <img class="img visible-xs" src="7_6.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_6.png" alt="launch" width="600" height="200">
+      </div>
+      <h4 id="education">
+        Now if you want to change the type of lists like instead of bullets you want square, then you can use list-style-type property<br>
+        Example :<br>
+        < ul style = “list-style-type:square” > ……. < /ul ><br>
+        Similarly you can use different values for list-style-type like circle, square, none. We will also use this in CSS in the upcoming blogs.<br>
+        Here also you can use the trick : ul>li*n, where n is the number of li tags you want.
+      </h4>
+      <h4 id="education">
+        <b><u>Tables in HTML</u></b><br><br>
+        Tables are nothing but a collection of rows and columns.<br>
+        You can create tables in HTML with the help of < table >, < tr >, < th > and < td > tags.
+        ⦁	< table > : defines an HTML table<br>
+        ⦁	< tr > : defines table row<br>
+        ⦁	< th > : defines table header<br>
+        ⦁	< td > : defines table data/cell.<br><br>
+        Example :
+      </h4>
+      <img class="img visible-xs" src="7_7.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_7.png" alt="launch" width="500" height="400">
+      </div>
+      <h4 id="education">
+        Your output table looks like below :
+      </h4>
+      <img class="img visible-xs" src="7_8.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_8.png" alt="launch" width="600" height="200">
+      </div>
+      <h4 id="education">
+        Now, you will ask that why borders are not there. So the answer is that for this little CSS is required.<br>
+        In between the head tags add a style tag, there you have to add css border property.
+      </h4>
+      <img class="img visible-xs" src="7_9.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="7_9.png" alt="launch" width="500" height="400">
+      </div>
+      <h4 id="education">
+        Don’t worry about CSS, we will discuss in detail each and everything.<br> <br>
+        So, this was about lists and tables in HTML program. In our next blog we will do ids and classes in HTML.<br>
+        So, this much for this blog. Any feedback for suggestion will be appreciated in the comments. Thank you all…!        
+      </h4>
+          <h4 id="education" style="text-align: right">
+            <b>⦁ HARSHIT SRIVASTAVA</b><br>
+          </h4>
+    </section>
+    <div class="next">
+      <a href="WD_3.6.html">
+        <button class="button" type="button"><b>Next ></b></button>
+      </a>
+    </div>
+    <div class="previous">
+      <a href="WD_3.4.html">
+        <button class="button2" type="button"><b>< Previous</b></button>
+      </a>
+    </div>
+    <div style="padding-top: 70px;color: DarkSlateGrey;">
+      <!-- begin wwww.htmlcommentbox.com -->
+      <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+      <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24Sz0SmeaMQmmgsm6PwOpm2%2F"+"&opts=16862&num=10&ts=1621539441105");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+      <!-- end www.htmlcommentbox.com -->
+    </div>
+  </div>
+
+  <!--START OF FOOTER-->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours : </span><br>
+          Monday - Saturday : 10:00am - 8:00pm<br>
+          Sunday : 12:00pm - 6:00pm<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address : </span><br>
+          Faridabad, Haryana<br>
+          Developed by<br> "PRAJWAL SHARMA" & "AYUSH RANA"<br>
+          <p>* Please call before coming...!</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>Email-Id : uniquedu.3017@gmail.com</p>
+          <p>Contact : +918595641819</p><br>
+          Instagram : <a href="https://www.instagram.com/uniquedu.3017/">@uniquedu.3017</a><br><br>
+          <p>"If you want to write blog than mail us...!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; UniquEdu.co.in</div>
+    </div>
+  </footer>
+  <!--END OF FOOTER-->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../../js/script.js"></script>
+</body>
+</html>

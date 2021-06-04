@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Machine Learning</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <!-- START OF HEADER -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo Image"></div>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>UNIQUEDU</h1></a>
+            <p>
+              <span class="hidden-xs">The uniqueness in knowledge we provide is more than you expect.</span>
+              <span class="visible-xs">The uniqueness in knowledge we <br>provide is more than you expect.</span>
+            </p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs">
+              <a href="../HOME.html">
+                <span class="glyphicon glyphicon-home"></span>Home
+              </a>
+            </li>
+            <li>
+              <a href="../BLOGS.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Blogs
+              </a>
+            </li>
+            <li>
+              <a href="../about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us
+              </a>
+            </li>
+            <li>
+              <a href="../Join.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Join Us
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+918595641819">
+                <span>+918595641819</span>
+              </a>
+              <div>* Contact</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+918595641819">
+      <span class="glyphicon glyphicon-earphone"></span>
+      +918595641819
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Contact</div>
+  <!-- END OF HEADER -->
+  <div id="main-content" class="container">
+    <h2 id="education" class="text-center">Linear Regression with Multiple Variable</h2>
+    <section class="C">
+      <h4 id="education">
+        Greetings! This is <b>Parv Arora</b> and I have done certification in Machine Learning. So, in this series of  blogs, I am going to give you a full tutorial on machine learning .Our next topic is Linear Regression in multiple variable. <br><br>
+
+        <b><u>Linear Regression with Multiple Variable</u></b><br><br>
+        Linear regression with multiple variables is also known as "multivariate linear regression".<br>
+        We now introduce notation for equations where we can have any number of input variables.<br>
+        x<sup>(i)</sup><sub>j</sub> = value of feature j in the ith training example<br>
+        x<sup>(i)</sup> = the input (features) of the ith training example<br>
+        m = the number of training examples<br>
+        n = the number of features<br><br>
+
+        The multivariable form of the hypothesis function accommodating these multiple features is as follows:<br><br>
+
+        h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>X<sub>1</sub>+θ<sub>2</sub>X<sub>2</sub>+θ<sub>3</sub>X<sub>3</sub>+⋯+θ<sub>n</sub>X<sub>n</sub><br><br>
+
+        In order to develop intuition about this function, we can think about θ<sub>0</sub> as the basic price of a house, θ<sub>1</sub> as the price per square meter, θ<sub>2</sub> as the price per floor, etc.  x<sub>1</sub> will be the number of square meters in the house, x<sub>2</sub> the number of floors, etc.<br>
+        Using the definition of matrix multiplication, our multivariable hypothesis function can be concisely represented as:<br><br>
+      </h4>
+      <img class="img visible-xs" src="9.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="9.jpg" alt="launch" width="600" height="200">
+      </div>
+      <h4 id="education">
+        <br><b><u>Gradient Descent for Multiple Variables</u></b><br><br>
+        The gradient descent equation itself is generally the same form; we just have to repeat it for our 'n' features:<br><br>
+      </h4>
+      <img class="img visible-xs" src="10.jpg" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="10.jpg" alt="launch" width="600" height="300">
+      </div>
+      <h4 id="education">
+        <br><b><u>Polynomial Regression</u></b><br><br> 
+        Our hypothesis function need not be linear (a straight line) if that does not fit the data well.<br><br>
+        We can change the behavior or curve of our hypothesis function by making it a quadratic, cubic or square root function (or any other form).<br>
+        For example, if our hypothesis function is h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x<sub>1</sub> then we can create additional features based on x1, to get the quadratic function h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x<sub>1</sub>+θ<sub>2</sub>x<sub>1</sub><sup>2</sup> or the cubic h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x<sub>1</sub>+θ<sub>2</sub>x<sub>1</sub><sup>2</sup>+θ<sub>3</sub>x<sub>1</sub><sup>3</sup><br><br>
+        In the cubic version, we have created new features x<sub>2</sub> and x<sub>3</sub> where x<sub>2</sub>=x<sub>1</sub><sup>2</sup> and x<sub>3</sub>=x<sub>1</sub><sup>3</sup>.<br>
+        To make it a square root function, we could do: h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x<sub>1</sub>+θ<sub>2</sub>x<sub>1</sub><br><br>
+        One important thing to keep in mind is, if you choose your features this way then feature scaling becomes very important.<br>
+        eg. if x<sub>1</sub> has range 1 - 1000 then range of x<sub>1</sub><sup>2</sup> becomes 1 - 1000000 and that of x<sub>1</sub><sup>3</sup> becomes 1 - 1000000000<br><br>
+        
+        <b><u>Normal Equation</u></b><br><br>
+        Gradient descent gives one way of minimizing J. Let’s discuss a second way of doing so, this time performing the minimization explicitly and without resorting to an iterative algorithm. In the "Normal Equation" method, we will minimize J by explicitly taking its derivatives with respect to the θj’s, and setting them to zero. This allows us to find the optimum theta without iteration. The normal equation formula is given below: <br><br>
+        θ = (X<sup>T</sup>X)<sup>−1</sup>X<sup>T</sup>y<br><br>
+        There is no need to do feature scaling with the normal equation.<br>
+        The following is a comparison of gradient descent and the normal equation:<br><br>
+      </h4>
+      <img class="img visible-xs" src="11.png" alt="launch">
+      <div style="text-align: center;">
+        <img class="hidden-xs" src="11.png" alt="launch" width="600" height="300">
+      </div>
+      <h4 id="education">
+        <br>With the normal equation, computing the inversion has complexity O(n<sup>3</sup>). So if we have a very large number of features, the normal equation will be slow. In practice, when n exceeds 10,000 it might be a good time to go from a normal solution to an iterative process.<br><br>
+        
+        <b><u>Normal Equation Noninvertibility</u></b><br><br>
+        When implementing the normal equation in octave we want to use the 'pinv' function rather than 'inv'. The 'pinv' function will give you a value of θ even if X^TXXTX is not invertible.<br><br>
+
+        If X<sup>T</sup>X is noninvertible, the common causes might be having :<br>
+        • Redundant features, where two features are very closely related (i.e. they are linearly dependent)<br>
+        • Too many features (e.g. m ≤ n). In this case, delete some features or use "regularization" (to be explained in a later lesson).<br><br>
+        Solutions to the above problems include deleting a feature that is linearly dependent with another or deleting one or more features when there are too many features.<br><br>
+        So, this is all about Linear regression in multiple variable. Thank you to be so patient. I hope you gained a brief knowledge about the topic.<br><br>
+        Be alert guys I will post more on Machine Learning. Feel free to provide feedback guys to help me improve my content.
+      </h4>
+      <h4 id="education" style="text-align: right">
+        <b>• PARV ARORA</b><br>
+      </h4>
+    </section>
+    <div class="next">
+      <a href="ML_4.html">
+        <button class="button" type="button"><b>Next ></b></button>
+      </a>
+    </div>
+    <div class="previous">
+      <a href="ML_2.html">
+        <button class="button2" type="button"><b>< Previous</b></button>
+      </a>
+    </div>
+    <div style="padding-top: 70px;color: DarkSlateGrey;">
+      <!-- begin wwww.htmlcommentbox.com -->
+      <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+      <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24Sz0SmeaMQmmgsm6PwOpm2%2F"+"&opts=16862&num=10&ts=1621539441105");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+      <!-- end www.htmlcommentbox.com -->
+    </div>
+  </div>
+
+  <!--START OF FOOTER-->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours : </span><br>
+          Monday - Saturday : 10:00am - 8:00pm<br>
+          Sunday : 12:00pm - 6:00pm<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address : </span><br>
+          Faridabad, Haryana<br>
+          Developed by<br> "PRAJWAL SHARMA" & "AYUSH RANA"<br>
+          <p>* Please call before coming...!</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>Email-Id : uniquedu.3017@gmail.com</p>
+          <p>Contact : +918595641819</p><br>
+          Instagram : <a href="https://www.instagram.com/uniquedu.3017/">@uniquedu.3017</a><br><br>
+          <p>"If you want to write blog than mail us...!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; UniquEdu.co.in</div>
+    </div>
+  </footer>
+  <!--END OF FOOTER-->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../../js/script.js"></script>
+</body>
+</html>
