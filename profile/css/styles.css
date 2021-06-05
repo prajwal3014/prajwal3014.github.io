@@ -156,6 +156,10 @@ b {
 	background: url('../Achievement-1_small.jpg') no-repeat center;
 }
 
+#map-tile {
+	background: url('../Blog_small.jpg') no-repeat center;
+}
+
 #menu-tile span, #specials-tile span, #map-tile span {
 	position: absolute;
 	bottom: 0;
@@ -372,4 +376,15 @@ h3.menu-item-title {
 		float: left;
 		width: 100%;
 	}
+}
+
+.container .C .img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	height: auto;
+}
+
+#logo_1:hover {
+	box-shadow: 0px 0px 25px Beige;
 }
