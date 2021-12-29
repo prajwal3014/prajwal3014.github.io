@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../static/contact_bg.jpg" class="d-block w-100 img_1">
+                <div class="carousel-caption carousel_text" style="top: 150px !important;">
+                    <!-- <p class="text-light" style="font-size: 20px; padding-bottom: 10px;">{{ msg }}</p> -->
+                    <h1 class="text-light" style="padding-bottom: 20px;"><b>Contact Us</b></h1>
+                    <div class="row justify-content-md-center">
+                        <form class="text-dark col col-lg-6" method="post" style="font-size: 20px;" onsubmit="sendEmail()">
+                            <div class="form-floating">
+                                <input name="name" type="text" class="form-control" id="floatingTextarea2" style="height: 70px; width: 500px;">
+                                <label for="floatingTextarea2">Name</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <input name="number" type="number" class="form-control" id="floatingTextarea2" style="height: 70px; width: 500px;">
+                                <label for="floatingTextarea2">Phone Number</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <input name="email" type="email" class="form-control" id="floatingTextarea2" style="height: 70px; width: 500px;">
+                                <label for="floatingTextarea2">Email-Id</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <textarea name="purpose" class="form-control" id="floatingTextarea2" style="height: 100px; width: 500px;"></textarea>
+                                <label for="floatingTextarea2">Purpose</label>
+                            </div>
+                            <br>
+                            <div style="float: right; padding-right: 10px;">
+                                <input type="reset" value="Clear Form" class="btn btn-lg btn-danger btn-3">
+                            </div>
+                            <div style="float: left; padding-left: 10px;">
+                                <button type="submit" class="btn btn-success btn-1" style="width: 130px; height: 45px; font-size: 22px;">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
