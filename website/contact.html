@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/logo-3.png" type="image/icon type">
+
+    <!-- CSS File Links -->
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Title -->
+    <title>Contact | Breiz India</title>
+</head>
+
+<body>
+    <!-- NAVBAR STARTS -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <!-- For Desktop -->
+            <div class="navbar-brand mb-0 h1 d-none d-sm-block">
+                <div style="float: left;">
+                    <img src="./static/logo-3.png" alt="" width="70" height="70"> &nbsp;
+                </div>
+                <div>
+                    <p style="font-size: 25px;">BREIZ INDIA</p>
+                    <p style="font-size: 15px;">An ISO 9001:2015 Certified Company</p>
+                </div>
+            </div>
+
+            <!-- For Mobile -->
+            <div class="navbar-brand mb-0 h1 d-block d-sm-none">
+                <div style="float: left;">
+                    <img src="./static/logo-3.png" alt="" width="50" height="50"> &nbsp;
+                </div>
+                <div>
+                    <p style="font-size: 15px;">BREIZ INDIA</p>
+                    <p style="font-size: 10px;">An ISO 9001:2015 Certified Company</p>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0" style="margin-left: auto;">
+                    <li class="nav-item">
+                        <a class="nav-link nav-btn" style="font-size: 25px;" aria-current="page" href="home.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-btn" style="font-size: 25px;" href="about.html"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-btn" style="font-size: 25px;" href="contact.html"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- FOR DESKTOP -->
+    <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="static/contact_bg.jpg" class="d-block w-100 img_1">
+                <div class="carousel-caption carousel_text" style="top: 50px !important;">
+                    <h1 class="text-light" style="padding-bottom: 20px;"><b>Contact Us</b></h1>
+                    <div class="row justify-content-md-center">
+                        <form class="text-dark col col-lg-6" action="https://formsubmit.co/info@breizindia.com" method="post" style="font-size: 20px;">
+                            <input type="hidden" name="_captcha" value="false">
+                            <div class="form-floating">
+                                <input name="name" type="text" class="form-control" id="floatingTextarea2" style="height: 70px; width: 500px;" required>
+                                <label for="floatingTextarea2">Name</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <input name="number" type="number" class="form-control" id="floatingTextarea2" style="height: 70px; width: 500px;" required>
+                                <label for="floatingTextarea2">Phone Number</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <input name="email" type="email" class="form-control" id="floatingTextarea2" style="height: 70px; width: 500px;" required>
+                                <label for="floatingTextarea2">Email-Id</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <textarea name="purpose" class="form-control" id="floatingTextarea2" style="height: 100px; width: 500px;" required></textarea>
+                                <label for="floatingTextarea2">Purpose</label>
+                            </div>
+                            <br>
+                            <div style="float: right; padding-right: 10px;">
+                                <input type="reset" value="Clear Form" class="btn btn-lg btn-danger btn-3">
+                            </div>
+                            <div style="float: left; padding-left: 10px;">
+                                <button type="submit" class="btn btn-success btn-1" style="width: 130px; height: 45px; font-size: 22px;">Submit</button>
+                            </div>
+                            <input type="hidden" name="_next" value="https://www.breizindia.com/contact.html">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOR MOBILE -->
+    <div id="carouselExampleCaptions" class="carousel slide d-block d-sm-none" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="static/contact_bg.jpg" class="d-block w-100" height="450px">
+                <div class="carousel-caption carousel_text_xs">
+                    <h1 class="text-light" style="padding-bottom: 20px;"><b>Contact Us</b></h1>
+                    <div class="row justify-content-md-center">
+                        <form class="text-dark col col-lg-6" action="https://formsubmit.co/info@breizindia.com" method="post">
+                            <input type="hidden" name="_captcha" value="false">
+                            <div class="form-floating">
+                                <input name="name" type="text" class="form-control" id="floatingTextarea2" style="height: 50px;" required>
+                                <label for="floatingTextarea2">Name</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <input type="number" name="number" class="form-control" id="floatingTextarea2" style="height: 50px;" required>
+                                <label for="floatingTextarea2">Phone Number</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <input type="email" name="email" class="form-control" id="floatingTextarea2" style="height: 50px;" required>
+                                <label for="floatingTextarea2">Email-Id</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <textarea class="form-control" name="purpose" id="floatingTextarea2" style="height: 50px;" required></textarea>
+                                <label for="floatingTextarea2">Purpose</label>
+                            </div>
+                            <br>
+                            <div style="float: right;">
+                                <input type="reset" value="Clear Form" class="btn btn-sm btn-danger btn-3">
+                            </div>
+                            <div style="float: left;">
+                                <button type="submit" class="btn btn-success btn-1" style="width: 83px; height: 32px; font-size: 14px;">Submit</button>
+                            </div>
+                            <input type="hidden" name="_next" value="https://www.breizindia.com/contact.html">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER STARTS -->
+    <footer class="panel-footer bg-dark" style="margin-top: 0;">
+        <div class="text-center">
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-instagram"></a>
+            <a href="" class="fa fa-linkedin"></a>
+        </div>
+        <hr style="background-color: blanchedalmond; height: 3px;">
+        <div class="container text-light">
+            <div class="row">
+                <section id="hours" class="col-sm-4" style="text-align: center;">
+                    <span>Email-Id : <br><br>
+                        info@breizindia.com
+                    </span><br><br>
+                    <a href="mailto:info@breizindia.com" class="btn btn-success btn-1">Mail Now</a><br>
+                    <hr class="d-block d-sm-none" style="margin: auto; margin-top: 10px;">
+                </section>
+                <section id="address" class="col-sm-4" style="text-align: center;">
+                    <span>Address : <br><br>
+                        Plot No. : 692, VPO Digh, <br>
+                        Faridabad, Haryana, India
+                    </span><br><br>
+                    <a href="https://goo.gl/maps/EC5N4EphtKd7FR5F9" target="_blank" class="btn btn-primary btn-3">View in Map</a>
+                    <!-- <p>* Please call before coming...!</p> -->
+                    <hr class="d-block d-sm-none" style="margin: auto; margin-top: 10px;">
+                </section>
+                <section id="testimonials" class="col-sm-4" style="text-align: center;">
+                    <span>Call us : <br><br>
+                        +91-9818987504
+                    </span><br><br>
+                    <a href="tel:+919818987504" class="btn btn-success btn-1">Call Now</a><br>
+                </section>
+            </div>
+        </div>
+        <hr style="background-color: blanchedalmond; height: 3px;">
+        <p class="text-center text-light" style="font-size: 20px;">Copyright &copy; Breiz India</p>
+        <p class="text-center text-light" style="font-size: 13px;">This Website is Proudly Powered by <a href="https://www.uniquedu.co.in/"><span style="color: white;">UniquEdu</span></a></p>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
