@@ -1,399 +1,500 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="static/logo-3.png" type="image/icon type">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS File Links -->
-    <link rel="stylesheet" href="./static/style.css">
+    <link rel="icon" href="static/NLES-only-Logo.png" type="image/icon type">
+    <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- Title -->
-    <title>Home | Breiz India</title>
+    <title>Home | NORTHENLIGHTS</title>
 </head>
 
 <body>
-    <!-- NAVBAR STARTS -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container-fluid">
-            <!-- For Desktop -->
-            <div class="navbar-brand mb-0 h1 d-none d-sm-block">
+
+    <!-- NAVBAR FOR DESKTOP STARTS -->
+    <div class="d-none d-sm-block">
+
+        <div class="container" style="padding-top: 15px;">
+            <div style="float: right; padding-top: 30px;">
+                <a href="tel:+918826161340" class="btn btn-success btn-1" style="font-size: 30px;">&phone; 8826161340</a>
+            </div>
+            <div>
                 <div style="float: left;">
-                    <img src="./static/logo-3.png" alt="" width="70" height="70"> &nbsp;
+                    <img src="static/NLES-only-Logo.png" height="100" width="250" alt="NLES-Logo">
                 </div>
                 <div>
-                    <p style="font-size: 25px;">BREIZ INDIA</p>
-                    <p style="font-size: 15px;">An ISO 9001:2015 Certified Company</p>
+                    <p style="font-size: 40px;">
+                        <span class="text-blue"><b>&nbsp;NORTHEN</b></span><span class="text-green"><b>LIGHTS</b></span>
+                    </p>
+                    <p class="text-blue" style="font-size: 20px;">&nbsp;&nbsp;<b>An Engineering Solution Company</b></p>
                 </div>
-            </div>
-
-            <!-- For Mobile -->
-            <div class="navbar-brand mb-0 h1 d-block d-sm-none">
-                <div style="float: left;">
-                    <img src="./static/logo-3.png" alt="" width="50" height="50"> &nbsp;
-                </div>
-                <div>
-                    <p style="font-size: 15px;">BREIZ INDIA</p>
-                    <p style="font-size: 10px;">An ISO 9001:2015 Certified Company</p>
-                </div>
-            </div>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0" style="margin-left: auto;">
-                    <li class="nav-item">
-                        <a class="nav-link active nav-btn" style="font-size: 25px;" aria-current="page" href="home.html"><b>Home</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-btn" style="font-size: 25px;" href="about.html"><b>About</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-btn" style="font-size: 25px;" href="contact.html"><b>Contact</b></a>
-                    </li>
-                </ul>
             </div>
         </div>
-    </nav>
-    <!-- NAVBAR ENDS -->
 
-    <!-- CODE FOR DESKTOP SCREEN STARTS -->
-    <div class="d-none d-sm-block" style="padding-bottom: 40px; background: url('static/home_body_bg.jpg') no-repeat center center fixed; width: 100%;">
-        <!-- CAROUSEL STARTS -->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" style="border: 5px solid black;">
-                    <img src="static/Fabricated Structures.JPG" class="d-block w-100" height="600px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 5px solid black;">
-                    <img src="static/forged machine.jpg" class="d-block w-100" height="600px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 5px solid black;">
-                    <img src="static/Solar Components.JPG" class="d-block w-100" height="600px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 5px solid black;">
-                    <img src="static/auto & sheet.jpg" class="d-block w-100" height="600px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 5px solid black;">
-                    <img src="static/LPG Components.JPG" class="d-block w-100" height="600px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 5px solid black;">
-                    <img src="static/Fish Farming.JPG" class="d-block w-100" height="600px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 5px solid black;">
-                    <img src="static/decorative_items.jpg" class="d-block w-100" height="600px" alt="...">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0" style="margin: auto;">
+                        <li class="nav-item px-5">
+                            <a class="navbar-brand nav-link active" href="home.html" style="font-size: 30px;">Home</a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a class="navbar-brand nav-link" href="about.html" style="font-size: 30px;">About</a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a class="navbar-brand nav-link active" href="home.html#services" style="font-size: 30px;">Services</a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a class="navbar-brand nav-link active" href="home.html#customers" style="font-size: 30px;">Customers</a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a class="navbar-brand nav-link active" href="home.html#contact" style="font-size: 30px;">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+
+    </div>
+    <!-- NAVBAR FOR DESKTOP ENDS -->
+
+    <!-- NAVBAR FOR MOBILE STARTS -->
+    <div class="d-block d-sm-none">
+
+        <div style="padding-top: 10px; padding-left: 5px;">
+            <div style="float: left;">
+                <img src="static/NLES-only-Logo.png" height="60" width="100" alt="NLES-Logo">
+            </div>
+            <div>
+                <p style="font-size: 18px;">
+                    <span class="text-blue"><b>&nbsp;NORTHEN</b></span><span class="text-green"><b>LIGHTS</b></span>
+                    <p class="text-blue" style="font-size: 12px;"><b>&nbsp;&nbsp;An Engineering Solution Company</b></p>
+                </p>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="navbar-brand nav-link active" href="home.html" style="font-size: 25px;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand nav-link" href="about.html" style="font-size: 25px;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand nav-link active" href="home.html#services" style="font-size: 25px;">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand nav-link active" href="home.html#customers" style="font-size: 25px;">Customers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand nav-link active" href="home.html#contact" style="font-size: 25px;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <!-- NAVBAR FOR MOBILE ENDS -->
+
+    <!-- CODE FOR DESKTOP SCREEN STARTS -->
+    <div class="d-none d-sm-block">
+
+        <!-- CAROUSEL STARTS -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="static/Home-Carousel-1.png" class="d-block w-100" height="650px">
+                </div>
+                <div class="carousel-item">
+                    <img src="static/Home-Carousel-2.png" class="d-block w-100" height="650px">
+                </div>
+                <!-- <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
         <!-- CAROUSEL ENDS -->
 
-        <br>
-
-        <div class="container">
-            <!-- SMALL DESCRIPTION STARTS -->
-            <h1 class="text-center text-light">Welcome to BREIZ INDIA</h1>
-            <div class="div-box" style="font-size: 25px;">
-                <b>
-                    <span style="color: red;">BREIZ INDIA</span> was established in 2016 by <span style="color: red;">Mr. Saurav Sood & Mr. Suresh Kaushik</span>, having many years experience in Sheet Metal, Powder coating, SPMs, Fabrication & its allied products. <span style="color: red;">BREIZ INDIA</span> Sheet Metal factory is based at the heart of Industrial hub
-                in Faridabad (Delhi NCR) India spread over an area of <span style="color: red;">2000 sq. yards</span> fully equipped to manufacture <span style="color: red;">Sheet Metal & Engineering Components</span> such as Sheet Metal, Rod components, Fabrication, Powder Coating etc.
-                </b>
-            </div>
-            <!-- SMALL DESCRIPTION ENDS -->
-
-            <br><br>
-
-            <!-- START OF OUR SERVICES -->
-            <h1 class="text-center text-light">Our Services</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/Fabricated Structures.JPG" height="300" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"><u>Fabricated Structures</u></h4>
-                            <p class="card-text" style="font-size: 18px;">
-                                <b>Fabricated Structures</b> refers to the cutting, bending, and assembling of steel to create different products. During Structural Fabrication, several pieces of steel are combined together to form different structures
-                                of predefined sizes and shapes.
-                                <br><br>
-                                <b>Type of Products - </b> Chain Conveyer, Red Light Pole, Camera Pole, Street Light Pole, Fabricated Shed, Fabricated Carosal Mechanical Part, Gentary.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
+        <div style="background: url(static/Services-bg.jpg) no-repeat center center fixed;">
+            <br>
+            <!-- INTRODUCTION STARTS -->
+            <div class="container">
+                <div style="float: left; padding-right: 15px;">
+                    <img src="static/NLES-Office-6.jpg" width="300" height="460" alt="...">
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/forged machine.jpg" class="card-img-top" height="300" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"><u>Forged Machine Components</u></h4>
-                            <p class="card-text" style="font-size: 18px;">
-                                <b>Forging</b> is a manufacturing process involving the shaping of metal using localized compressive forces. The metal is heated, usually in a forge. Forged parts can range in weight from less than a kilogram to hundreds
-                                of metric tons.
-                                <br><br>
-                                <b>Type of Products - </b> Special Type of Nut & Bolts, Pins for Agricultural Machinery, Forged Special Copper Components, Forged Special SS(Stainless Steel) Components.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/Solar Components.JPG" class="card-img-top" height="300" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"><u>Solar Components</u></h4>
-                            <p class="card-text" style="font-size: 18px;">
-                                <b>Solar energy</b> is defined as the transformation of energy that is present in the sun and is one of the renewable energies.
-                                <br><br>
-                                <b>Type of Products - </b> All type of Solar fittings (End Clamp, Mid Clamp, Coupler, Jointers), Rooftop Structure, Elivated Rooftop Sructure, Tilting Structure, Ground Structure, Solar Earthing Solution.
-                                <p style="color: red;">NOTE: We produce both Hot Dip Galvanised & Pre-Galvanised Products.</p>
-
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/auto & sheet.jpg" class="card-img-top" height="300" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"><u>Automobile & Sheet Metal Components</u></h4>
-                            <p class="card-text" style="font-size: 18px;">
-                                <b>Automobile</b> is a usually four-wheeled vehicle designed primarily for passenger transportation.
-                                <br>
-                                <b>Sheet Metal</b> refers to any metal that can be formed into flat pieces of varying thicknesses.
-                                <br><br>
-                                <b>Type of Procucts - </b> All type of Press Components, All type of Machine Components.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/LPG Components.JPG" class="card-img-top" height="300" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"><u>LPG Components</u></h4>
-                            <p class="card-text" style="font-size: 18px;">
-                                <b>LPG (Liquefied petroleum gas)</b> is a flammable mixture of hydrocarbon gases, most commonly propane, butane, and propylene. However, the latter two typically compose 5% or less of the mixture. LPG is a gas made of petrol.
-                                <br><br>
-                                <b>Type of Products - </b> LPG Conveyer, LPG Chain, Wet Chain, Mechanical Parts of Carosal, Mechanical Parts of LPG filling station.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/Fish Farming.JPG" class="card-img-top" height="300" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"><u>Fish Farming Related Components</u></h4>
-                            <p class="card-text" style="font-size: 18px;">
-                                <b>Fish farming</b> involves commercial breeding of fish, usually for food, in fish tanks or artificial enclosures such as fish ponds. It is a particular type of aquaculture, which is the controlled cultivation and harvesting
-                                of aquatic animals such as fish, crustaceans, molluscs and so on.
-                                <br><br>
-                                <b>Type of Products - </b> Portable fish tanks, Aeration System, Tarpouline, Tank Shed.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/decorative_items.png" class="card-img-top" height="300" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title"><u>Home Gardening Solutions</u></h4>
-                            <p class="card-text" style="font-size: 18px;">
-                                <b>Home Gardening</b> can be defined as a farming system that combines different physical, social and economic functions on the area of land around the family home.
-                                <br><br>
-                                <b>Type of Products - </b> Vertical Flower Pot stands, Horizontal Flower Pot stands, Customised Flower Pot stands, Hydrophonic stands, Green Shed, Terrace Gardening Solution.
-                                <br><br>
-                                <a href="" target="_blank" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
+                <div class="text-blue" style="font-size: 25px;">
+                    <strong>
+                    NORTHEN<span class="text-green">LIGHTS</span> Engineering Solution is a solution providers for a trouble free process & maximize Customer process efficiency with customer centric approach & Sustainable growth.
+                </strong>
+                    <br><br>
+                    <div class="text-center">
+                        <img src="static/NLES-Office-3.png" height="300" width="390" alt="...">
+                        <img src="static/NLES-Office-5.jpg" height="300" width="390" alt="...">
                     </div>
                 </div>
             </div>
-            <!-- END OF OUR SERVICES -->
+            <!-- INTRODUCTION ENDS -->
+
+            <br>
+
+            <!-- OUR SERVICES STARTS -->
+            <section id="services">
+                <div class="bg-grey">
+                    <br>
+                    <h1 class="text-center"><span class="text-blue">Our</span> <span class="text-green">Services</span></h1>
+                    <br>
+                </div>
+                <div class="container row row-cols-1 row-cols-md-3 g-4" style="margin: auto;">
+                    <div class="col">
+                        <div class="card col-border card-home">
+                            <img src="static/Home-Hydraulics.png" height="300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Accessories for Hydraulics industries</h4>
+                                <p class="card-text">
+                                    It is a technology using engineering, and other sciences involving the mechanical properties and use of liquids.
+                                    <br><br>
+                                    <a href="hydraulics.html" target="_blank" class="btn btn-primary btn-3">View More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card col-border card-home">
+                            <img src="static/Home-Welding.png" height="300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Welding Solutions<br><br></h4>
+                                <p class="card-text">
+                                    Welding is a fabrication process where two or more metallic parts are joined together with the help of heat & pressure.
+                                    <br><br>
+                                    <a href="construction.html" target="_blank" class="btn btn-primary btn-3">View More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card col-border card-home">
+                            <img src="static/Home-Environment.jpg" height="300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Environment Solutions<br><br></h4>
+                                <p class="card-text">
+                                    Environmental Solutions refer to the strategies and solutions adopted for a healthier, more sustainable and balanced planet or surrounding.
+                                    <br><br>
+                                    <a href="construction.html" target="_blank" class="btn btn-primary btn-3">View More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- OUR SERVICES ENDS -->
+
+            <br>
+
+            <!-- HOW WILL DO IT STARTS -->
+            <div class="bg-grey">
+                <br>
+                <h1 class="text-center"><span class="text-blue">How Will</span> <span class="text-green">Do It?</span></h1>
+                <br>
+            </div>
+            <div class="bg-white">
+                <br>
+                <div class="container text-center">
+                    <img src="static/How-We-Will-Do.png" alt="..." class="img-fluid">
+                </div>
+            </div>
+            <!-- HOW WILL DO IT ENDS -->
+
+            <!-- CUSTOMERS STARTS -->
+            <div class="bg-grey">
+                <br>
+                <h1 class="text-center"><span class="text-blue">Our</span> <span class="text-green">Customers</span></h1>
+                <br>
+            </div>
+            <section id="customers" class="container text-center">
+                <br>
+                <img class="px-5" src="static/Indian-Navy-Logo-1.png" alt="...">
+                <img class="px-5" src="static/Mahindra-Logo-1.gif" alt="...">
+                <img class="px-5" src="static/Knorr-Logo-1.png" alt="...">
+                <img class="px-5" src="static/JCB-Logo-1.png" alt="...">
+                <br><br>
+                <img class="px-5" src="static/TII-Logo.png" alt="...">
+                <img class="px-5" src="static/Cenlub-Logo.jpg" alt="...">
+                <img class="px-5" src="static/Tata-Steel-Logo-1.png" alt="...">
+                <img class="px-5" src="static/Escorts-Logo-1.png" alt="...">
+            </section>
+            <!-- CUSTOMERS ENDS -->
+
+            <br>
+
+            <!-- CONTACT FORM STARTS -->
+            <div class="bg-grey">
+                <br>
+                <h1 class="text-center"><span class="text-blue">Contact</span> <span class="text-green">us</span></h1>
+                <br>
+            </div>
+            <section id="contact" class="container text-center">
+                <br>
+                <div class="bg-blue" style="width: 40%; margin: auto;">
+                    <br>
+                    <div style="padding-left: 20px; padding-right: 20px;">
+                        <form class="text-blue" action="https://formsubmit.co/info@northenlights.in" method="post" style="font-size: 20px;">
+                            <input type="hidden" name="_captcha" value="false">
+                            <div class="form-floating">
+                                <input name="name" type="text" class="form-control" id="floatingTextarea2" style="height: 70px;" required>
+                                <label for="floatingTextarea2">Name</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <input name="number" type="number" class="form-control" id="floatingTextarea2" style="height: 70px;" required>
+                                <label for="floatingTextarea2">Phone Number</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <input name="email" type="email" class="form-control" id="floatingTextarea2" style="height: 70px;" required>
+                                <label for="floatingTextarea2">Email-Id</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                                <textarea name="purpose" class="form-control" id="floatingTextarea2" style="height: 100px;" required></textarea>
+                                <label for="floatingTextarea2">Purpose</label>
+                            </div>
+                            <br>
+                            <div style="float: right; padding-right: 10px;">
+                                <input type="reset" value="Clear Form" class="btn btn-lg btn-danger btn-2">
+                            </div>
+                            <div style="float: left; padding-left: 10px;">
+                                <button type="submit" class="btn btn-success btn-1" style="width: 130px; height: 45px; font-size: 22px;">Submit</button>
+                            </div>
+                            <input type="hidden" name="_next" value="">
+                        </form>
+                    </div>
+                    <br><br><br>
+                </div>
+            </section>
+            <!-- CONTACT FORM ENDS -->
+            <br>
+
         </div>
+
     </div>
     <!-- CODE FOR DESKTOP SCREEN ENDS -->
 
     <!-- CODE FOR MOBILE SCREEN STARTS -->
-    <div class="d-block d-sm-none" style="padding-bottom: 40px; background: url('static/home_body_bg.jpg') center center;">
+    <div class="d-block d-sm-none" style="background: url(static/Services-bg.jpg) center center;">
+
         <!-- CAROUSEL STARTS -->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" style="border: 3px solid black;">
-                    <img src="static/Fabricated Structures.JPG" class="d-block w-100" height="300px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 3px solid black;">
-                    <img src="static/forged machine.jpg" class="d-block w-100" height="300px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 3px solid black;">
-                    <img src="static/Solar Components.JPG" class="d-block w-100" height="300px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 3px solid black;">
-                    <img src="static/auto & sheet.jpg" class="d-block w-100" height="300px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 3px solid black;">
-                    <img src="static/LPG Components.JPG" class="d-block w-100" height="300px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 3px solid black;">
-                    <img src="static/Fish Farming.JPG" class="d-block w-100" height="300px" alt="...">
-                </div>
-                <div class="carousel-item" style="border: 3px solid black;">
-                    <img src="static/decorative_items.jpg" class="d-block w-100" height="300px" alt="...">
-                </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
             </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="static/Home-Carousel-1.png" class="d-block w-100" height="300px">
+                </div>
+                <div class="carousel-item">
+                    <img src="static/Home-Carousel-2.png" class="d-block w-100" height="300px">
+                </div>
+                <!-- <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
         <!-- CAROUSEL ENDS -->
 
+        <!-- INTRODUCTION STARTS -->
+        <div class="container my-2">
+            <!-- <img src="static/NLES-Office-2.jpg" class="img-fluid" alt="..."> -->
+            <div class="text-blue my-2" style="font-size: 14px;">
+                <strong>
+                    NORTHEN<span class="text-green">LIGHTS</span> Engineering Solution is a solution providers for a trouble free process & maximize Customer process efficiency with customer centric approach & Sustainable growth.
+                </strong>
+            </div>
+        </div>
+        <!-- INTRODUCTION ENDS -->
+
+        <!-- OUR SERVICES STARTS -->
+        <section id="services">
+            <div class="bg-grey">
+                <br>
+                <h3 class="text-center"><span class="text-blue">Our</span> <span class="text-green">Services</span></h3>
+                <br>
+            </div>
+            <div class="container row row-cols-1 row-cols-md-3 g-4" style="margin: auto;">
+                <div class="col">
+                    <div class="card col-border card-home">
+                        <img src="static/Home-Hydraulics.png" height="200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Accessories for Hydraulics industries</h5>
+                            <p class="card-text">
+                                Business grows fastly with Great User Experience, Create the Future with your Business Website, Own a Professional Website within 4 weeks.
+                                <br><br>
+                                <a href="hydraulics.html" target="_blank" class="btn btn-primary btn-3">View More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card col-border card-home">
+                        <img src="static/Home-Welding.png" height="200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Welding Solutions</h5>
+                            <p class="card-text">
+                                Now, Your Customers have not to wait longer for loading because they have installed your App. Own your Business App within 4 weeks.
+                                <br><br>
+                                <a href="construction.html" target="_blank" class="btn btn-primary btn-3">View More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card col-border card-home">
+                        <img src="static/Home-Environment.jpg" height="200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Environment Solutions</h5>
+                            <p class="card-text">
+                                Here we comes with our UNITRAINSHIP program [UniquEdu's Training + Internship Program]. Click below button to know more.
+                                <br><br>
+                                <a href="construction.html" target="_blank" class="btn btn-primary btn-3">View More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- OUR SERVICES ENDS -->
+
         <br>
 
-        <div class="container">
-            <!-- SMALL DESCRIPTION STARTS -->
-            <h1 class="text-center text-light">Welcome to BREIZ INDIA</h1>
-            <div class="div-box" style="font-size: 15px;">
-                <b>
-                    <span style="color: red;">BREIZ INDIA</span> was established in 2016 by <span style="color: red;">Mr. Saurav Sood & Mr. Suresh Kaushik</span>, having many years experience in Sheet Metal, Powder coating, SPMs, Fabrication & its allied products. <span style="color: red;">BREIZ INDIA</span> Sheet Metal factory is based at the heart of Industrial hub
-                in Faridabad (Delhi NCR) India spread over an area of <span style="color: red;">2000 sq. yards</span> fully equipped to manufacture <span style="color: red;">Sheet Metal & Engineering Components</span> such as Sheet Metal, Rod components, Fabrication, Powder Coating etc.
-                </b>
-            </div>
-            <!-- SMALL DESCRIPTION ENDS -->
-
+        <!-- HOW WILL DO IT STARTS -->
+        <div class="bg-grey">
             <br>
-
-            <!-- START OF OUR SERVICES -->
-            <h1 class="text-center text-light">Our Services</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/Fabricated Structures.JPG" height="250" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Fabricated Structures</u></h5>
-                            <p class="card-text" style="font-size: 15px;">
-                                <b>Fabricated Structures</b> refers to the cutting, bending, and assembling of steel to create different products. During Structural Fabrication, several pieces of steel are combined together to form different structures
-                                of predefined sizes and shapes.
-                                <br><br>
-                                <b>Type of Products - </b> Chain Conveyer, Red Light Pole, Camera Pole, Street Light Pole, Fabricated Shed, Fabricated Carosal Mechanical Part, Gentary.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/forged machine.jpg" class="card-img-top" height="250" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Forged Machine Components</u></h5>
-                            <p class="card-text" style="font-size: 15px;">
-                                <b>Forging</b> is a manufacturing process involving the shaping of metal using localized compressive forces. The metal is heated, usually in a forge. Forged parts can range in weight from less than a kilogram to hundreds
-                                of metric tons.
-                                <br><br>
-                                <b>Type of Products - </b> Special Type of Nut & Bolts, Pins for Agricultural Machinery, Forged Special Copper Components, Forged Special SS(Stainless Steel) Components.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/Solar Components.JPG" class="card-img-top" height="250" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Solar Components</u></h5>
-                            <p class="card-text" style="font-size: 15px;">
-                                <b>Solar energy</b> is defined as the transformation of energy that is present in the sun and is one of the renewable energies.
-                                <br><br>
-                                <b>Type of Products - </b> All type of Solar fittings (End Clamp, Mid Clamp, Coupler, Jointers), Rooftop Structure, Elivated Rooftop Sructure, Tilting Structure, Ground Structure, Solar Earthing Solution.
-                                <p style="color: red;">NOTE: We produce both Hot Dip Galvanised & Pre-Galvanised Products.</p>
-
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/auto & sheet.jpg" class="card-img-top" height="250" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Automobile & Sheet Metal Components</u></h5>
-                            <p class="card-text" style="font-size: 15px;">
-                                <b>Automobile</b> is a usually four-wheeled vehicle designed primarily for passenger transportation.
-                                <br>
-                                <b>Sheet Metal</b> refers to any metal that can be formed into flat pieces of varying thicknesses.
-                                <br><br>
-                                <b>Type of Procucts - </b> All type of Press Components, All type of Machine Components.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/LPG Components.JPG" class="card-img-top" height="250" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>LPG Components</u></h5>
-                            <p class="card-text" style="font-size: 15px;">
-                                <b>LPG (Liquefied petroleum gas)</b> is a flammable mixture of hydrocarbon gases, most commonly propane, butane, and propylene. However, the latter two typically compose 5% or less of the mixture. LPG is a gas made of petrol.
-                                <br><br>
-                                <b>Type of Products - </b> LPG Conveyer, LPG Chain, Wet Chain, Mechanical Parts of Carosal, Mechanical Parts of LPG filling station.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/Fish Farming.JPG" class="card-img-top" height="250" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Fish Farming Related Components</u></h5>
-                            <p class="card-text" style="font-size: 15px;">
-                                <b>Fish farming</b> involves commercial breeding of fish, usually for food, in fish tanks or artificial enclosures such as fish ponds. It is a particular type of aquaculture, which is the controlled cultivation and harvesting
-                                of aquatic animals such as fish, crustaceans, molluscs and so on.
-                                <br><br>
-                                <b>Type of Products - </b> Portable fish tanks, Aeration System, Tarpouline, Tank Shed.
-                                <br><br>
-                                <a href="" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="static/decorative_items.png" class="card-img-top" height="250" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Home Gardening Solutions</u></h5>
-                            <p class="card-text" style="font-size: 15px;">
-                                <b>Home Gardening</b> can be defined as a farming system that combines different physical, social and economic functions on the area of land around the family home.
-                                <br><br>
-                                <b>Type of Products - </b> Vertical Flower Pot stands, Horizontal Flower Pot stands, Customised Flower Pot stands, Hydrophonic stands, Green Shed, Terrace Gardening Solution.
-                                <br><br>
-                                <a href="" target="_blank" class="btn btn-primary btn-3">View More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END OF OUR SERVICES -->
+            <h3 class="text-center"><span class="text-blue">How Will</span> <span class="text-green">Do It?</span></h3>
+            <br>
         </div>
+        <div class="container text-center bg-white">
+            <br>
+            <img src="static/How-We-Will-Do.png" alt="..." class="img-fluid">
+            <br><br>
+        </div>
+        <!-- HOW WILL DO IT ENDS -->
+
+        <!-- CUSTOMERS STARTS -->
+        <section id="customers" class="text-center">
+            <div class="bg-grey">
+                <br>
+                <h3 class="text-center"><span class="text-blue">Our</span> <span class="text-green">Customers</span></h3>
+                <br>
+            </div>
+            <br>
+            <img src="static/Indian-Navy-Logo-1.png" height="110" width="70" alt="...">&nbsp; &nbsp;
+            <img src="static/Mahindra-Logo-1.gif" height="60" width="150" alt="...">
+            <br><br>
+            <img src="static/Knorr-Logo-1.png" height="50" width="180" alt="...">&nbsp; &nbsp;
+            <img src="static/JCB-Logo-1.png" height="50" width="120" alt="...">
+            <br><br>
+            <img src="static/TII-Logo.png" height="50" width="150" alt="...">&nbsp; &nbsp;
+            <img src="static/Cenlub-Logo.jpg" height="70" width="150" alt="...">
+            <br><br>
+            <img src="static/Tata-Steel-Logo-1.png" height="80" width="130" alt="...">&nbsp; &nbsp; &nbsp; &nbsp;
+            <img src="static/Escorts-Logo-1.png" height="80" width="80" alt="...">
+        </section>
+        <!-- CUSTOMERS ENDS -->
+
+        <br><br>
+
+        <!-- CONTACT FORM STARTS -->
+        <div class="bg-grey">
+            <br>
+            <h3 class="text-center"><span class="text-blue">Contact</span> <span class="text-green">us</span></h3>
+            <br>
+        </div>
+        <br>
+        <section id="contact" class="container text-center">
+            <div class="bg-blue">
+                <br>
+                <div style="padding-left: 20px; padding-right: 20px;">
+                    <form class="text-blue" action="https://formsubmit.co/info@northenlights.in" method="post">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="form-floating">
+                            <input name="name" type="text" class="form-control" id="floatingTextarea2" style="height: 50px;" required>
+                            <label for="floatingTextarea2">Name</label>
+                        </div>
+                        <br>
+                        <div class="form-floating">
+                            <input type="number" name="number" class="form-control" id="floatingTextarea2" style="height: 50px;" required>
+                            <label for="floatingTextarea2">Phone Number</label>
+                        </div>
+                        <br>
+                        <div class="form-floating">
+                            <input type="email" name="email" class="form-control" id="floatingTextarea2" style="height: 50px;" required>
+                            <label for="floatingTextarea2">Email-Id</label>
+                        </div>
+                        <br>
+                        <div class="form-floating">
+                            <textarea class="form-control" name="purpose" id="floatingTextarea2" style="height: 50px;" required></textarea>
+                            <label for="floatingTextarea2">Purpose</label>
+                        </div>
+                        <br>
+                        <div style="float: right;">
+                            <input type="reset" value="Clear Form" class="btn btn-sm btn-danger btn-2">
+                        </div>
+                        <div style="float: left;">
+                            <button type="submit" class="btn btn-success btn-1" style="width: 83px; height: 32px; font-size: 14px;">Submit</button>
+                        </div>
+                        <input type="hidden" name="_next" value="">
+                    </form>
+                </div>
+                <br><br>
+            </div>
+        </section>
+        <!-- CONTACT FORM ENDS -->
+        <br>
+
     </div>
     <!-- CODE FOR MOBILE SCREEN ENDS -->
 
     <!-- FOOTER STARTS -->
-    <footer class="panel-footer bg-dark" style="margin-top: 0px !important;">
+    <footer class="panel-footer bg-blue" style="margin-top: 0px;">
         <div class="text-center">
             <a href="" class="fa fa-facebook"></a>
             <a href="" class="fa fa-instagram"></a>
@@ -403,37 +504,38 @@
         <div class="container text-light">
             <div class="row">
                 <section id="hours" class="col-sm-4" style="text-align: center;">
-                    <span>Email-Id : <br><br>
-                        info@breizindia.com
+                    <span>Email-Id : <br>
+                        info@northenlights.in
                     </span><br><br>
-                    <a href="mailto:info@breizindia.com" class="btn btn-success btn-1">Mail Now</a><br>
+                    <a href="mailto:info@northenlights.in" class="btn btn-success btn-1">Mail Now</a><br>
                     <hr class="d-block d-sm-none" style="margin: auto; margin-top: 10px;">
                 </section>
                 <section id="address" class="col-sm-4" style="text-align: center;">
-                    <span>Address : <br><br>
-                        Plot No. : 692, VPO Digh, <br>
-                        Faridabad, Haryana, India
+                    <span>Address : <br>
+                        Shop no. 50, Ground floor, Saini Tower, Neelam Flyover market,
+                        NIT Faridabad - 121001, Haryana
                     </span><br><br>
-                    <a href="https://goo.gl/maps/EC5N4EphtKd7FR5F9" target="_blank" class="btn btn-primary btn-3">View in Map</a>
-                    <!-- <p>* Please call before coming...!</p> -->
+                    <a href="" target="_blank" class="btn btn-primary btn-3">View in Map</a>
+                    <p>* Please call before coming...!</p>
                     <hr class="d-block d-sm-none" style="margin: auto; margin-top: 10px;">
                 </section>
                 <section id="testimonials" class="col-sm-4" style="text-align: center;">
-                    <span>Call us : <br><br>
-                        +91-9818987504
+                    <span>Call us : <br>
+                        +91-8826161340
                     </span><br><br>
-                    <a href="tel:+919818987504" class="btn btn-success btn-1">Call Now</a><br>
+                    <a href="tel:+918826161340" class="btn btn-success btn-1">Call Now</a><br>
                 </section>
             </div>
         </div>
         <hr style="background-color: blanchedalmond; height: 3px;">
-        <p class="text-center text-light" style="font-size: 20px;">Copyright &copy; Breiz India</p>
-        <p class="text-center text-light" style="font-size: 13px;">This Website is Proudly Powered by <a href="https://www.uniquedu.co.in/"><span style="color: white;">UniquEdu</span></a></p>
+        <p class="text-center text-light" style="font-size: 20px;">Copyright &copy; 2022 NORTHENLIGHTS</p>
+        <p class="text-center text-light" style="font-size: 13px;">This Website is Proudly Powered by <a href="https://www.uniquedu.co.in/"><span style="color: white;"><b>UniquEdu</b></span></a></p>
     </footer>
     <!-- FOOTER ENDS -->
 
-    <!-- Bootstrap Script tag -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 
 </html>
